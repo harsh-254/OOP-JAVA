@@ -12,6 +12,14 @@ public class cntdgits{
             n = quo;
             cnt++;
         }
-        System.out.println(cnt);
+       System.out.println(cnt);
+      
+      /* alt method
+      while(n != 0){
+          n /= 10;
+          cnt++;
+      }   
+     */
+      
     }
 }
