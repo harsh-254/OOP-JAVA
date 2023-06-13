@@ -1,5 +1,5 @@
 import java.util.*;
-public class fibo_I_02{
+public class even_odd{
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
