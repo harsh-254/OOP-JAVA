@@ -6,7 +6,10 @@ public class cntdgits{
         int  n = scn.nextInt(),cnt=0;
         while(n != 0)
         {
-            n /= 10;
+            int quo = n/10;
+            int rem = n % 10;
+          
+            n = quo;
             cnt++;
         }
         System.out.println(cnt);
