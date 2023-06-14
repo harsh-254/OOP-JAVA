@@ -7,7 +7,7 @@ public class digitsofnum{
         // altenate of pow function we use this. 
         int temp = n;
         int div=1;
-        while(temp > 10){
+        while(temp >= 10){
             temp = temp/10;
             div = div*10;
         }
