@@ -5,8 +5,10 @@ public class print_rev_no{
         int  n = scn.nextInt(),inv=0;
         while(n != 0){
             int rem = n%10;
+            int quo = n/10;
+            
             System.out.print(rem);
-            n = n/10;
+            n = quo;
         }
     }
 }
