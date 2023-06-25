@@ -12,6 +12,7 @@ public class Main{
             }
             
             sp--;
+            
             System.out.println("*\t");
         }
     }
